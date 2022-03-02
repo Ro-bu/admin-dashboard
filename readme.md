@@ -1,2 +1,2 @@
 # ADMIN DASHBOARD
-Project from [The Odin Project's curriculum](https://theodinproject.com) to create an admin dashboard based on their [example image](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png).
+Project from [The Odin Project's curriculum](https://theodinproject.com) to create an admin dashboard based on their [example image](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png), using only grid for positioning.

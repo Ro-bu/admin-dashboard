@@ -9,11 +9,12 @@
 body{
     min-height: 100vh;
     min-width: 100vw;
+    overflow: hidden;
 }
 
 .main-cont{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 365px 1fr;
     grid-template-rows: 1fr 5fr;
     min-height: 100vh;
 }
@@ -24,6 +25,82 @@ body{
     grid-column: 2/2;
     box-shadow: 0px 0px 10px 5px #94A3B8;
     z-index: 2;
+    color: #0F172A;
+    padding: 30px 60px 30px 30px;
+}
+.header-top{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+    gap: 100px;
+}
+.header-search{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 24px 1fr;
+    gap: 30px;
+}
+.header-search input{
+    background-color: #CBD5E1;
+    border: none;
+    height: 24px;
+    border-radius: 15px;
+    max-width: 800px;
+    padding-left: 10px;
+}
+.header-account{
+    display: grid;
+    grid-template-columns: 24px 40px auto;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    gap: 20px;
+}
+.header-account img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.header-bot{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.bot-header-account{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+    grid-template-columns: 60px;
+}
+.bot-header-account img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.account-name{
+    font-size: 14px;
+    font-weight: 700;
+    display: grid;
+}
+.account-name p:last-child{
+    font-size: 24px;
+}
+.bot-header-buttons{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 30px;
+}
+.bot-header-buttons button{
+    border: none;
+    background-color: #0891B2;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    border-radius: 15px;
 }
 .sidebar{
     background-color: #0891B2;
